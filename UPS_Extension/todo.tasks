@@ -1,0 +1,15 @@
+Général:
+  ☐ Suivi de plusieurs colis
+  ☐ Ouvrir page des options lors du premier lancement
+Popup:
+  ☐ Nouveau design (Materialize ?)
+  ☐ Bouton "Rafraîchir" pour le status du colis
+Background:
+  ☐ Chargement des options depuis chrome.storage
+  ☐ Popup initial pour indiquer le suivi d'un colis
+Options:
+  ☐ Déplacer séléction de la langue
+  ☐ Sauvegarde (et synchronisation) des options
+API:
+  ☐ Gérer le cas lorsque le colis est livré
+    Le nombre d'étapes passe à 2. Essayer de trouver un moyen pour identifier la livraison.

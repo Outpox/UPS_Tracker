@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UPS Shipping tracker options</title>
+</head>
+<body style="margin: 0; padding: 0; padding-bottom: 50px;">
+	<h1 style="text-align: center">UPS Shipping tracker options</h1>
+	<div style="width: 70%; margin-left: 15%">
+		<p>Time checking interval : 
+			<select id="timeInterval">
+				<option value="300000">5 minutes</option>
+				<option value="1800000">30 minutes</option>
+				<option value="3600000">1 hour</option>
+				<option value="21600000">6 hours</option>
+				<option value="43200000">12 hours</option>
+				<option value="86400000">1 day</option>
+			</select>
+		</p>
+		<p>Language :
+			<select id="language">
+				<option value="en_US">English</option>
+				<option value="fr_FR">French</option>
+				<option value="de_DE">German</option>
+				<option value="es_ES">Spanish</option>
+				<option value="it_IT">Italian</option>
+			</select>
+		</p>
+	</div>
+	<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+</body>
+</html>
